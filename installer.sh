@@ -1,5 +1,5 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emiln237/arabiclanguage/main/installer.sh -O - | /bin/sh # # ########################################### ###########################################  
+ # # Command: wget https://raw.githubusercontent.com/emil237/arabiclanguage/main/installer.sh -O - | /bin/sh # # ########################################### ###########################################  
 MY_URL="https://raw.githubusercontent.com/emiln237/arabiclanguage/main"  
 echo "******************************************************************************************************************"
 echo "download and install arabic language"
@@ -30,6 +30,7 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
 
 
 
