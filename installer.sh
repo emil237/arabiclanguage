@@ -1,45 +1,6 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emil237/arabiclanguage/main/installer.sh -O - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/emiln237/arabiclanguage/main"  
-echo "******************************************************************************************************************"
-echo "download and install arabic language"
-echo "============================================================================================================================="
-
-#####################################################################################
-echo " download and install arabic language    "
-cd /tmp
-wget  "https://raw.githubusercontent.com/emil237/arabiclanguage/main/arabiclanguage_bo-hlala_all.tar.gz"
-wait
-echo " install Arabic language "
-tar -xzf arabiclanguage_bo-hlala_all.tar.gz  -C /
-wait
-sleep 2;
-echo "" 
-echo "" 
-echo "****************************************************************************************************************************"
-echo "#   INSTALLED SUCCESSFULLY #"
-echo "
-echo " "*********************************************************" 
-	echo "********************************************************************************"
-echo "   UPLOADED BY  >>>>   EMIL_NABIL "   
-sleep 4;
-	echo '========================================================================================================================='
-###########################################                                                                                                                  
-echo ". >>>>         RESTARING     <<<<"
-echo "**********************************************************************************"
-wait
-killall -9 enigma2
-exit 0
-
-
-
-
-
-
-
-
-
-
+ # #
+echo "TVlfVVJMPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZW1pbG4yMzcvYXJhYmljbGFuZ3VhZ2UvbWFpbiIgIAplY2hvICIqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioiCmVjaG8gImRvd25sb2FkIGFuZCBpbnN0YWxsIGFyYWJpYyBsYW5ndWFnZSIKZWNobyAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCmVjaG8gIiBkb3dubG9hZCBhbmQgaW5zdGFsbCBhcmFiaWMgbGFuZ3VhZ2UgICAgIgpjZCAvdG1wCndnZXQgICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZW1pbDIzNy9hcmFiaWNsYW5ndWFnZS9tYWluL2FyYWJpY2xhbmd1YWdlX2JvLWhsYWxhX2FsbC50YXIuZ3oiCndhaXQKZWNobyAiIGluc3RhbGwgQXJhYmljIGxhbmd1YWdlICIKdGFyIC14emYgYXJhYmljbGFuZ3VhZ2VfYm8taGxhbGFfYWxsLnRhci5neiAgLUMgLwp3YWl0CnNsZWVwIDI7CmVjaG8gIiIgCmVjaG8gIiIgCmVjaG8gIioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioiCmVjaG8gIiMgICBJTlNUQUxMRUQgU1VDQ0VTU0ZVTExZICMiCmVjaG8gIgplY2hvICIgIioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiIgCgllY2hvICIqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiIKZWNobyAiICAgVVBMT0FERUQgQlkgID4+Pj4gICBFTUlMX05BQklMICIgICAKc2xlZXAgNDsKCWVjaG8gJz09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0nCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZWNobyAiLiA+Pj4+ICAgICAgICAgUkVTVEFSSU5HICAgICA8PDw8IgplY2hvICIqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqIgp3YWl0CmtpbGxhbGwgLTkgZW5pZ21hMgpleGl0IDAK" | base64 -d | sh
 
 
 
